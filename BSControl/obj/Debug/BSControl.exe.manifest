@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BSControl.exe" size="15872">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BSControl.exe" size="16896">
       <assemblyIdentity name="BSControl" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>6GfwStfoMwsd5Z2ujmg1UdUSRSgkOa6BGFedQn3kJY0=</dsig:DigestValue>
+        <dsig:DigestValue>75IfLUtTV+TqaABJzsC+HR9LYCletik6vFXbi62qxhU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

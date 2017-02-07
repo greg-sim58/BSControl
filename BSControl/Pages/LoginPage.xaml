@@ -7,8 +7,9 @@
       mc:Ignorable="d" 
       d:DesignHeight="300" d:DesignWidth="300"
       Title="LoginPage">
-    <Menu Height="40" VerticalAlignment="Center">
-        <MenuItem Height="20" Width="40" Background="Black">One</MenuItem>
-    </Menu>
-    
+
+    <Grid VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+        <TextBlock>Login Page</TextBlock>
+        
+    </Grid>
 </Page>

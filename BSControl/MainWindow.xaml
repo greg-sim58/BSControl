@@ -17,11 +17,15 @@
                 <Label x:Name="logo" Foreground="AntiqueWhite" VerticalAlignment="Center" Width="Auto" Margin="10 0 0 0" FontFamily="Roboto" FontSize="22">BS Electronics</Label>
             </StackPanel>
             <StackPanel DockPanel.Dock="Right" Orientation="Horizontal" Background="Transparent" HorizontalAlignment="Right" VerticalAlignment="Bottom">
-                <Label DockPanel.Dock="Right" Foreground="AntiqueWhite" Margin="10 0 10 0">Dashboard</Label>
-                <Label DockPanel.Dock="Right" Foreground="AntiqueWhite" Margin="10 0 10 0">Login</Label>
+                <Label DockPanel.Dock="Right" Foreground="AntiqueWhite" Margin="10 0 10 0">
+                    <Hyperlink RequestNavigate="Hyperlink_RequestNavigate"  NavigateUri="./Pages/DashboardPage.xaml" >Dashboard</Hyperlink>
+                </Label>
+                <Label DockPanel.Dock="Right" Foreground="AntiqueWhite" Margin="10 0 10 0">
+                    <Hyperlink RequestNavigate="Hyperlink_RequestNavigate"  NavigateUri="./Pages/LoginPage.xaml" >Login</Hyperlink>
+                </Label>
             </StackPanel>
         </DockPanel>
-        <Frame Background="Bisque" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <Frame Name="MainFrame" Background="Bisque" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" NavigationUIVisibility="Hidden">
             
         </Frame>
 
