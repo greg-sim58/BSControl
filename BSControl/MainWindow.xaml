@@ -11,14 +11,20 @@
         
         
     </Window.Resources>
-    <StackPanel Height="48" Width="Auto" Background="Black" VerticalAlignment="Top" HorizontalAlignment="Stretch">
-        
+    <StackPanel>
+        <DockPanel Height="48" Width="Auto" Background="Black" VerticalAlignment="Top" LastChildFill="True">
+            <StackPanel>
+                <Label x:Name="logo" Foreground="AntiqueWhite" VerticalAlignment="Center" Width="Auto" Margin="10 0 0 0" FontFamily="Roboto" FontSize="22">BS Electronics</Label>
+            </StackPanel>
+            <StackPanel DockPanel.Dock="Right" Orientation="Horizontal" Background="Transparent" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+                <Label DockPanel.Dock="Right" Foreground="AntiqueWhite" Margin="10 0 10 0">Dashboard</Label>
+                <Label DockPanel.Dock="Right" Foreground="AntiqueWhite" Margin="10 0 10 0">Login</Label>
+            </StackPanel>
+        </DockPanel>
+        <Frame Background="Bisque" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            
+        </Frame>
+
     </StackPanel>
     
-    <!--<Grid>
-        <StackPanel Height="48" VerticalAlignment="Top" >
-            <Label Background="Transparent" Content="{StaticResource Logo}" />
-        </StackPanel>
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="168,200,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
-    </Grid>-->
 </Window>
