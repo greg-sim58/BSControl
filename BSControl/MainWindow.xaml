@@ -13,19 +13,19 @@
     </Window.Resources>
     <StackPanel>
         <DockPanel Height="48" Width="Auto" Background="Black" VerticalAlignment="Top" LastChildFill="True">
-            <StackPanel>
+            <StackPanel VerticalAlignment="Center">
                 <Label x:Name="logo" Foreground="AntiqueWhite" VerticalAlignment="Center" Width="Auto" Margin="10 0 0 0" FontFamily="Roboto" FontSize="22">BS Electronics</Label>
             </StackPanel>
             <StackPanel DockPanel.Dock="Right" Orientation="Horizontal" Background="Transparent" HorizontalAlignment="Right" VerticalAlignment="Bottom">
                 <Label DockPanel.Dock="Right" Foreground="AntiqueWhite" Margin="10 0 10 0">
-                    <Hyperlink RequestNavigate="Hyperlink_RequestNavigate"  NavigateUri="./Pages/DashboardPage.xaml" >Dashboard</Hyperlink>
+                    <Hyperlink RequestNavigate="Hyperlink_RequestNavigate"  NavigateUri="./Pages/DashboardPage.xaml" Foreground="AntiqueWhite">Dashboard</Hyperlink>
                 </Label>
                 <Label DockPanel.Dock="Right" Foreground="AntiqueWhite" Margin="10 0 10 0">
-                    <Hyperlink RequestNavigate="Hyperlink_RequestNavigate"  NavigateUri="./Pages/LoginPage.xaml" >Login</Hyperlink>
+                    <Hyperlink RequestNavigate="Hyperlink_RequestNavigate"  NavigateUri="./Pages/LoginPage.xaml" Foreground="AntiqueWhite">Login</Hyperlink>
                 </Label>
             </StackPanel>
         </DockPanel>
-        <Frame Name="MainFrame" Background="Bisque" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" NavigationUIVisibility="Hidden">
+        <Frame Name="MainFrame" Background="AntiqueWhite" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" NavigationUIVisibility="Hidden">
             
         </Frame>
 

@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\Archive\Dev\BSControl\BSControl\obj\Debug\
+C:\Development\BSControl\BSControl\obj\Debug\
 BSControl
 none
 false
 DEBUG;TRACE
-D:\Archive\Dev\BSControl\BSControl\App.xaml
+C:\Development\BSControl\BSControl\App.xaml
 4-41676930
 
 10-939804049
-141236662551
+161310219230
 Pages\DashboardPage.xaml;Pages\LoginPage.xaml;Resources\StaticResources.xaml;MainWindow.xaml;
 
 False

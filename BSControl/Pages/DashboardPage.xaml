@@ -8,8 +8,9 @@
       d:DesignHeight="300" d:DesignWidth="300"
       Title="DashboardPage">
 
-    <Grid>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="85,66,0,0" TextWrapping="Wrap" Text="This is the Dashboard page" VerticalAlignment="Top"/>
+    <StackPanel Background="ForestGreen" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Dashboard" VerticalAlignment="Top" RenderTransformOrigin="0.387,-0.402"/>
+        <TextBlock Text="52.6" Foreground="Blue" FontFamily="Roboto" FontSize="34" Margin="20 0 0 0 "></TextBlock>
 
-    </Grid>
+    </StackPanel>
 </Page>
