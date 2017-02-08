@@ -51,3 +51,5 @@ C:\Development\BSControl\BSControl\obj\Debug\BSControl.application
 C:\Development\BSControl\BSControl\obj\Debug\BSControl.exe
 D:\Archive\Dev\BSControl\BSControl\obj\Debug\Pages\ConfigPage.g.cs
 D:\Archive\Dev\BSControl\BSControl\obj\Debug\Pages\ConfigPage.baml
+C:\Development\BSControl\BSControl\obj\Debug\Pages\ConfigPage.g.cs
+C:\Development\BSControl\BSControl\obj\Debug\Pages\ConfigPage.baml
