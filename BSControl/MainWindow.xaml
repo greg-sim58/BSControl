@@ -21,6 +21,9 @@
                     <Hyperlink RequestNavigate="Hyperlink_RequestNavigate"  NavigateUri="./Pages/DashboardPage.xaml" Foreground="AntiqueWhite">Dashboard</Hyperlink>
                 </Label>
                 <Label DockPanel.Dock="Right" Foreground="AntiqueWhite" Margin="10 0 10 0">
+                    <Hyperlink RequestNavigate="Hyperlink_RequestNavigate"  NavigateUri="./Pages/ConfigPage.xaml" Foreground="AntiqueWhite">Configuration</Hyperlink>
+                </Label>
+                <Label DockPanel.Dock="Right" Foreground="AntiqueWhite" Margin="10 0 10 0">
                     <Hyperlink RequestNavigate="Hyperlink_RequestNavigate"  NavigateUri="./Pages/LoginPage.xaml" Foreground="AntiqueWhite">Login</Hyperlink>
                 </Label>
             </StackPanel>

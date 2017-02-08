@@ -3,7 +3,6 @@ D:\Archive\Dev\BSControl\BSControl\bin\Debug\BSControl.exe.manifest
 D:\Archive\Dev\BSControl\BSControl\bin\Debug\BSControl.application
 D:\Archive\Dev\BSControl\BSControl\bin\Debug\BSControl.exe
 D:\Archive\Dev\BSControl\BSControl\bin\Debug\BSControl.pdb
-D:\Archive\Dev\BSControl\BSControl\obj\Debug\BSControl.csprojResolveAssemblyReference.cache
 D:\Archive\Dev\BSControl\BSControl\obj\Debug\Resources\StaticResources.baml
 D:\Archive\Dev\BSControl\BSControl\obj\Debug\Pages\DashboardPage.g.cs
 D:\Archive\Dev\BSControl\BSControl\obj\Debug\Pages\LoginPage.g.cs
@@ -50,3 +49,5 @@ C:\Development\BSControl\BSControl\obj\Debug\BSControl.csproj.GenerateResource.C
 C:\Development\BSControl\BSControl\obj\Debug\BSControl.exe.manifest
 C:\Development\BSControl\BSControl\obj\Debug\BSControl.application
 C:\Development\BSControl\BSControl\obj\Debug\BSControl.exe
+D:\Archive\Dev\BSControl\BSControl\obj\Debug\Pages\ConfigPage.g.cs
+D:\Archive\Dev\BSControl\BSControl\obj\Debug\Pages\ConfigPage.baml

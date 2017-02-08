@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Development\BSControl\BSControl\obj\Debug\
+D:\Archive\Dev\BSControl\BSControl\obj\Debug\
 BSControl
 none
 false
 DEBUG;TRACE
-C:\Development\BSControl\BSControl\App.xaml
-4-41676930
+D:\Archive\Dev\BSControl\BSControl\App.xaml
+51623384936
 
-14592892480
-161310219230
-Pages\DashboardPage.xaml;Pages\LoginPage.xaml;Resources\StaticResources.xaml;MainWindow.xaml;
+15-1067959604
+141236662551
+Pages\ConfigPage.xaml;Pages\DashboardPage.xaml;Pages\LoginPage.xaml;Resources\StaticResources.xaml;MainWindow.xaml;
 
-True
+False
 
