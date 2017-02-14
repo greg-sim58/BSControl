@@ -1,5 +1,4 @@
-﻿using BSControl.UserControls;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,19 +13,18 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace BSControl.Pages
+namespace BSControl.UserControls
 {
     /// <summary>
-    /// Interaction logic for DashboardPage.xaml
+    /// Interaction logic for PageTitleUserControl.xaml
     /// </summary>
-    public partial class DashboardPage : Page
+    public partial class PageTitleUserControl : UserControl
     {
-        public DashboardPage()
+        public string Title { get; set; }
+        public PageTitleUserControl()
         {
             InitializeComponent();
-            PageTitleUserControl pageTitleUserControl = new PageTitleUserControl();
-            pageTitleUserControl.Title = "Dashboard";
-            UserControls.Children.Add(pageTitleUserControl);
+            this.txtPageTitle.Content = Title;
         }
     }
 }

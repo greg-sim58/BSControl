@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="BSControl.UserControls.PageTitleUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:BSControl.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="48" d:DesignWidth="300">
+    <Grid>
+        <StackPanel Background="Transparent" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+            <Label x:Name="txtPageTitle" HorizontalAlignment="Left"  Content="PageTitleUserControl" VerticalAlignment="Center" Foreground="CadetBlue" FontFamily="Roboto" FontSize="38" Margin="0,0,-34,0" Width="334"/>
+        </StackPanel>
+    </Grid>
+</UserControl>
