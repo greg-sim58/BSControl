@@ -9,7 +9,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using BSControl;
 using BSControl.Pages;
 using System;
 using System.Diagnostics;

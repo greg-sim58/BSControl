@@ -11,11 +11,9 @@
       Background="AntiqueWhite"
       Title="DashboardPage">
     <Grid>
-        <!--<StackPanel Name="UserControls" Orientation="Vertical">
+        <StackPanel Name="UserControls" Orientation="Vertical">
             
-        </StackPanel>-->
-        <StackPanel>
-            <expControl:BSControl ProtocolNumber="{Binding Path=Number, Mode=TwoWay}" />
         </StackPanel>
+        
     </Grid>
 </Page>
