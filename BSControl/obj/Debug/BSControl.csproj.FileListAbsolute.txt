@@ -53,3 +53,5 @@ D:\Archive\Dev\BSControl\BSControl\obj\Debug\Pages\ConfigPage.g.cs
 D:\Archive\Dev\BSControl\BSControl\obj\Debug\Pages\ConfigPage.baml
 C:\Development\BSControl\BSControl\obj\Debug\Pages\ConfigPage.g.cs
 C:\Development\BSControl\BSControl\obj\Debug\Pages\ConfigPage.baml
+C:\Development\BSControl\BSControl\obj\Debug\UserControls\AnalogCardUserControl.g.cs
+C:\Development\BSControl\BSControl\obj\Debug\UserControls\AnalogCardUserControl.baml
