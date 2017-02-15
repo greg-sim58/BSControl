@@ -25,7 +25,7 @@ namespace BSControl.Pages
         {
             InitializeComponent();
             PageTitleUserControl pageTitleUserControl = new PageTitleUserControl();
-            pageTitleUserControl.Title = "Dashboard";
+            pageTitleUserControl.PageTitle.Content = "Dashboard";
             UserControls.Children.Add(pageTitleUserControl);
         }
     }

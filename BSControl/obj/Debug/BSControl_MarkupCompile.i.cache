@@ -12,9 +12,9 @@ DEBUG;TRACE
 C:\Development\BSControl\BSControl\App.xaml
 72131010741
 
-13-735246512
+17797450017
 161310219230
 Pages\ConfigPage.xaml;Pages\DashboardPage.xaml;Pages\LoginPage.xaml;Resources\StaticResources.xaml;MainWindow.xaml;UserControls\AnalogCardUserControl.xaml;UserControls\PageTitleUserControl.xaml;
 
-False
+True
 

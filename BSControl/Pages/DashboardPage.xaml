@@ -11,7 +11,7 @@
       Background="AntiqueWhite"
       Title="DashboardPage">
     <Grid>
-        <StackPanel Name="UserControls" Orientation="Vertical">
+        <StackPanel x:Name="UserControls" Orientation="Vertical">
             
         </StackPanel>
         

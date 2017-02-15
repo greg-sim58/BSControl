@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BSControl.UserControls;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,11 @@ namespace BSControl.Pages
         public LoginPage()
         {
             InitializeComponent();
+
+            PageTitleUserControl pageTitleUserControl = new PageTitleUserControl();
+            pageTitleUserControl.PageTitle.Content = "System Login";
+            UserControls.Children.Add(pageTitleUserControl);
+
         }
     }
 }

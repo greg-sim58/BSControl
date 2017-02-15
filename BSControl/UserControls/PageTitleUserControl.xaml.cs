@@ -20,11 +20,15 @@ namespace BSControl.UserControls
     /// </summary>
     public partial class PageTitleUserControl : UserControl
     {
-        public string Title { get; set; }
         public PageTitleUserControl()
         {
             InitializeComponent();
-            this.txtPageTitle.Content = Title;
+        }
+
+        public string txtPageTitle
+        {
+            get { return this.PageTitle.Content.ToString(); }
+            set { this.PageTitle.Content = value; }
         }
     }
 }

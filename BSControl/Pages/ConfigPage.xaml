@@ -9,7 +9,7 @@
       Title="ConfigPage">
 
     <Grid>
-        <TextBlock Foreground="CadetBlue" FontFamily="Roboto" FontSize="20" Margin="10 10 0 0 " Height="Auto" Width="Auto">System Configuration</TextBlock>
+        <StackPanel x:Name="UserControls"></StackPanel>
         
     </Grid>
 </Page>

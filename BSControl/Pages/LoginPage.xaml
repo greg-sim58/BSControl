@@ -9,7 +9,9 @@
       Title="LoginPage">
 
     <Grid VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
-        <TextBlock>Login Page</TextBlock>
+        <StackPanel x:Name="UserControls" >
+            
+        </StackPanel>
         
     </Grid>
 </Page>
