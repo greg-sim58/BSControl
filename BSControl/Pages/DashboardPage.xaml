@@ -14,6 +14,9 @@
         <StackPanel x:Name="UserControls" Orientation="Vertical">
             
         </StackPanel>
+        <StackPanel x:Name="AnalogCards" Orientation="Horizontal">
+            
+        </StackPanel>
         
     </Grid>
 </Page>

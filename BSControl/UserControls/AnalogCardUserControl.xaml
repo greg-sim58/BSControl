@@ -9,9 +9,13 @@
              Background="CadetBlue">
     <Grid Background="Beige" Margin="2" >
         
-        <StackPanel Background="AliceBlue">
-            <Label>Output A</Label>
-            <TextBlock FontFamily="Roboto" FontSize="34" HorizontalAlignment="Center" VerticalAlignment="Center"  Height="42" Width="88" ><Run Text="56.2A"/></TextBlock>
+        <StackPanel Background="AliceBlue" Margin="4">
+            <Border BorderThickness="0" BorderBrush="Red">
+                
+            </Border>
+            <Label x:Name="CardName" Content="Card Name" /> 
+            <TextBlock x:Name="CardValue" FontFamily="Roboto" FontSize="34" HorizontalAlignment="Center" 
+                       VerticalAlignment="Center"  Height="42" Width="88" ><Run Text="56.2A"/></TextBlock>
         </StackPanel>
     </Grid>
 </UserControl>

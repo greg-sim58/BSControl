@@ -20,6 +20,19 @@ namespace BSControl.UserControls
     /// </summary>
     public partial class AnalogCardUserControl : UserControl
     {
+        public string txtCardName
+        {
+            get { return this.CardName.Content.ToString(); }
+            set { this.CardName.Content = value; }
+        }
+
+        public string txtCardValue
+        {
+            get { return this.CardValue.Text.ToString(); }
+            set { this.CardValue .Text= value; }
+        }
+
+
         public AnalogCardUserControl()
         {
             InitializeComponent();
