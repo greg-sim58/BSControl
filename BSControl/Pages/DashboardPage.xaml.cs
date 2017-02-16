@@ -29,6 +29,9 @@ namespace BSControl.Pages
             UserControls.Children.Add(pageTitleUserControl);
 
             AnalogCards.Children.Add(new AnalogCardUserControl { txtCardName = "Meter 1", txtCardValue = "76.4" });
+            AnalogCards.Children.Add(new AnalogCardUserControl { txtCardName = "Meter 2", txtCardValue = "45.8" });
+            AnalogCards.Children.Add(new AnalogCardUserControl { txtCardName = "Meter 3", txtCardValue = "22.8" });
+            AnalogCards.Children.Add(new AnalogCardUserControl { txtCardName = "Meter 2", txtCardValue = "145.3" });
         }
     }
 }

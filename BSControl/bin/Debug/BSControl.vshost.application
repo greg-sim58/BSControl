@@ -7,14 +7,14 @@
     <framework targetVersion="4.5.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="BSControl.exe.manifest" size="4852">
+    <dependentAssembly dependencyType="install" codebase="BSControl.exe.manifest" size="3465">
       <assemblyIdentity name="BSControl.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>hP7j/ZpcQcJfo2DMM43ryoT6OjWnc0TFvrucoaDXk1M=</dsig:DigestValue>
+        <dsig:DigestValue>uXmkAGt30daJ06SeJsbmnK87pkC55LZ8WXZ6l3WFkEo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

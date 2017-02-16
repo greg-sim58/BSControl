@@ -7,9 +7,9 @@
              mc:Ignorable="d" 
              d:DesignHeight="180" d:DesignWidth="180"
              Background="CadetBlue">
-    <Grid Background="Beige" Margin="2" >
+    <Grid Background="Transparent" Margin="2" >
         
-        <StackPanel Background="AliceBlue" Margin="4">
+        <StackPanel Background="AliceBlue" Margin="8" >
             <Border BorderThickness="0" BorderBrush="Red">
                 
             </Border>

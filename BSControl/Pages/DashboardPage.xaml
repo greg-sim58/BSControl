@@ -11,12 +11,13 @@
       Background="AntiqueWhite"
       Title="DashboardPage">
     <Grid>
-        <StackPanel x:Name="UserControls" Orientation="Vertical">
-            
-        </StackPanel>
-        <StackPanel x:Name="AnalogCards" Orientation="Horizontal">
-            
-        </StackPanel>
-        
+        <DockPanel>
+            <StackPanel DockPanel.Dock="Top" x:Name="UserControls" Orientation="Vertical">
+                
+            </StackPanel>
+            <StackPanel DockPanel.Dock="Top" x:Name="AnalogCards" Orientation="Horizontal">
+
+            </StackPanel>
+        </DockPanel>
     </Grid>
 </Page>

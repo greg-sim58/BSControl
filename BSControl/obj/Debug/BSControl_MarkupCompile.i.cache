@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Development\BSControl\BSControl\obj\Debug\
+D:\Archive\Dev\BSControl\BSControl\obj\Debug\
 BSControl
 none
 false
 DEBUG;TRACE
-C:\Development\BSControl\BSControl\App.xaml
+D:\Archive\Dev\BSControl\BSControl\App.xaml
 72131010741
 
-17797450017
-161310219230
+17-1666427933
+141236662551
 Pages\ConfigPage.xaml;Pages\DashboardPage.xaml;Pages\LoginPage.xaml;Resources\StaticResources.xaml;MainWindow.xaml;UserControls\AnalogCardUserControl.xaml;UserControls\PageTitleUserControl.xaml;
 
 True
