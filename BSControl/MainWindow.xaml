@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:BSControl"
         mc:Ignorable="d"
         Title="BS Control" 
+        Background="CadetBlue"
       WindowStartupLocation="CenterScreen">
     <Window.Resources>
         
@@ -28,7 +29,7 @@
                 </Label>
             </StackPanel>
         </DockPanel>
-        <Frame Name="MainFrame" Background="AntiqueWhite" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" NavigationUIVisibility="Hidden">
+        <Frame Name="MainFrame" Background="Transparent" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" NavigationUIVisibility="Hidden">
             
         </Frame>
 

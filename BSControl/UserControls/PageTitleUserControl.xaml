@@ -9,7 +9,7 @@
     <Grid>
         <StackPanel Background="Transparent" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
             <Label x:Name="PageTitle" HorizontalAlignment="Left"  Content="PageTitleUserControl" 
-                   VerticalAlignment="Center" Foreground="CadetBlue" FontFamily="Roboto" FontSize="20" Margin="0,0,-34,0" Width="334"/>
+                   VerticalAlignment="Center" Foreground="WhiteSmoke" FontFamily="Roboto" FontSize="20" Margin="0,0,-34,0" Width="334"/>
         </StackPanel>
     </Grid>
 </UserControl>

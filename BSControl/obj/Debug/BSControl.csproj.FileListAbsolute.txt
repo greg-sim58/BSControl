@@ -4,10 +4,6 @@ C:\Development\BSControl\BSControl\bin\Debug\BSControl.exe.manifest
 C:\Development\BSControl\BSControl\bin\Debug\BSControl.application
 C:\Development\BSControl\BSControl\bin\Debug\BSControl.exe
 C:\Development\BSControl\BSControl\bin\Debug\BSControl.pdb
-C:\Development\BSControl\BSControl\bin\Debug\EntityFramework.dll
-C:\Development\BSControl\BSControl\bin\Debug\EntityFramework.SqlServer.dll
-C:\Development\BSControl\BSControl\bin\Debug\EntityFramework.xml
-C:\Development\BSControl\BSControl\bin\Debug\EntityFramework.SqlServer.xml
 C:\Development\BSControl\BSControl\obj\Debug\Resources\StaticResources.baml
 C:\Development\BSControl\BSControl\obj\Debug\Pages\DashboardPage.g.cs
 C:\Development\BSControl\BSControl\obj\Debug\Pages\LoginPage.g.cs
@@ -61,3 +57,4 @@ D:\Archive\Dev\BSControl\BSControl\obj\Debug\BSControl.pdb
 C:\Development\BSControl\BSControl\obj\Debug\UserControls\PageTitleUserControl.g.cs
 C:\Development\BSControl\BSControl\obj\Debug\UserControls\PageTitleUserControl.baml
 D:\Archive\Dev\BSControl\BSControl\obj\Debug\BSControl.csprojResolveAssemblyReference.cache
+C:\Development\BSControl\BSControl\obj\Debug\BSControl.csprojResolveAssemblyReference.cache
