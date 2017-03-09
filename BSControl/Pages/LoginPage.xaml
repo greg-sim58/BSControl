@@ -11,13 +11,6 @@
       Title="LoginPage">
 
     <Grid  Background="Red">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*"  />
-            <RowDefinition Height="Auto" />
-        </Grid.RowDefinitions>
-        <!--<StackPanel x:Name="UserControls" >
-            
-        </StackPanel>-->
         <TextBlock Grid.Row="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">Text here</TextBlock>
     </Grid>
 </Page>
