@@ -57,4 +57,3 @@ D:\Archive\Dev\BSControl\BSControl\obj\Debug\BSControl.pdb
 C:\Development\BSControl\BSControl\obj\Debug\UserControls\PageTitleUserControl.g.cs
 C:\Development\BSControl\BSControl\obj\Debug\UserControls\PageTitleUserControl.baml
 D:\Archive\Dev\BSControl\BSControl\obj\Debug\BSControl.csprojResolveAssemblyReference.cache
-C:\Development\BSControl\BSControl\obj\Debug\BSControl.csprojResolveAssemblyReference.cache

@@ -28,6 +28,13 @@ namespace BSControl.Pages
             PageTitleUserControl pageTitleUserControl = new PageTitleUserControl();
             pageTitleUserControl.PageTitle.Content = "System Configuration";
             UserControls.Children.Add(pageTitleUserControl);
+
+            
+        }
+
+        private void Hyperlink_RequestNavigate(object sender, RequestNavigateEventArgs e)
+        {
+            ConfigFrame.Navigate(e.Uri);
         }
     }
 }
