@@ -6,11 +6,12 @@
       xmlns:local="clr-namespace:BSControl.Pages"
       mc:Ignorable="d" 
       
-      Background="Aquamarine"
+      
       
       Title="LoginPage">
 
-    <Grid  Background="Red">
-        <TextBlock Grid.Row="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">Text here</TextBlock>
+    <Grid>
+        <StackPanel x:Name="UserControls"></StackPanel>
+        <TextBlock HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0 48 0 0">Text here</TextBlock>
     </Grid>
 </Page>

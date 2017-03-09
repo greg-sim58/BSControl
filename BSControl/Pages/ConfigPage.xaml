@@ -7,26 +7,16 @@
       mc:Ignorable="d" 
       Title="ConfigPage">
 
-    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="10" />
-            <RowDefinition Height="1*" />
-            <RowDefinition Height="28" />
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
-        
-        <StackPanel Grid.Row="0" Grid.Column="0"  x:Name="UserControls"></StackPanel>
-        <DockPanel LastChildFill="True" Grid.Row="1" Grid.Column="0" Background="AntiqueWhite" Height="auto" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
-            <TabControl DockPanel.Dock="Top" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="Pink" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch">
+    <Grid>
+        <StackPanel x:Name="UserControls"></StackPanel>
+            <TabControl HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="Pink" 
+                        HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"
+                        Margin="0 48 0 0">
                 <TabItem x:Name="Settings" Header="Settings">
                     <TextBlock HorizontalAlignment="Stretch"></TextBlock>
                 </TabItem>
                 <TabItem x:Name="DigitalIO" Header="DigitalIO"></TabItem>
                 <TabItem x:Name="AnalogIO" Header="AnalogIO"></TabItem>
             </TabControl>
-            <TextBlock DockPanel.Dock="Bottom" Background="Purple"></TextBlock>
-        </DockPanel>
     </Grid>
 </Page>
