@@ -27,7 +27,7 @@ namespace BSControl.Pages
 
             PageTitleUserControl pageTitleUserControl = new PageTitleUserControl();
             pageTitleUserControl.PageTitle.Content = "System Login";
-            UserControls.Children.Add(pageTitleUserControl);
+            //UserControls.Children.Add(pageTitleUserControl);
 
         }
     }
