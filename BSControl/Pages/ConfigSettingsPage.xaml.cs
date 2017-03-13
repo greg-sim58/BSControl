@@ -1,5 +1,4 @@
-﻿using BSControl.UserControls;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,19 +16,13 @@ using System.Windows.Shapes;
 namespace BSControl.Pages
 {
     /// <summary>
-    /// Interaction logic for ConfigPage.xaml
+    /// Interaction logic for COnfigSettingsPage.xaml
     /// </summary>
-    public partial class ConfigPage : Page
+    public partial class COnfigSettingsPage : Page
     {
-        public ConfigPage()
+        public COnfigSettingsPage()
         {
             InitializeComponent();
-
-            PageTitleUserControl pageTitleUserControl = new PageTitleUserControl();
-            pageTitleUserControl.PageTitle.Content = "System Configuration";
-            UserControls.Children.Add(pageTitleUserControl);
         }
-
-        
     }
 }

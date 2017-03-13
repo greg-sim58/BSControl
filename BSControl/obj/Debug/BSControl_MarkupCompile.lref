@@ -1,7 +1,10 @@
 ﻿
 FC:\Development\BSControl\BSControl\App.xaml;;
+FC:\Development\BSControl\BSControl\Pages\AnalogInputPage.xaml;;
 FC:\Development\BSControl\BSControl\Pages\ConfigPage.xaml;;
+FC:\Development\BSControl\BSControl\Pages\ConfigSettingsPage.xaml;;
 FC:\Development\BSControl\BSControl\Pages\DashboardPage.xaml;;
+FC:\Development\BSControl\BSControl\Pages\DigitalIoPage.xaml;;
 FC:\Development\BSControl\BSControl\Pages\LoginPage.xaml;;
 FC:\Development\BSControl\BSControl\MainWindow.xaml;;
 FC:\Development\BSControl\BSControl\UserControls\AnalogCardUserControl.xaml;;

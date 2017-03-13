@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Development\BSControl\BSControl\App.xaml
-72131010741
+10369284726
 
-17797450017
+201203595564
 141236662551
-Pages\ConfigPage.xaml;Pages\DashboardPage.xaml;Pages\LoginPage.xaml;Resources\StaticResources.xaml;MainWindow.xaml;UserControls\AnalogCardUserControl.xaml;UserControls\PageTitleUserControl.xaml;
+Pages\AnalogInputPage.xaml;Pages\ConfigPage.xaml;Pages\ConfigSettingsPage.xaml;Pages\DashboardPage.xaml;Pages\DigitalIoPage.xaml;Pages\LoginPage.xaml;Resources\StaticResources.xaml;MainWindow.xaml;UserControls\AnalogCardUserControl.xaml;UserControls\PageTitleUserControl.xaml;
 
 True
 

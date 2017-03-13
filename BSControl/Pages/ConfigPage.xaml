@@ -8,28 +8,51 @@
       Title="ConfigPage">
 
     <Grid>
-        <!--<StackPanel x:Name="UserControls"></StackPanel>
-            <TabControl HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
-                        HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"
-                        Margin="0 48 0 0">
-                <TabItem x:Name="Settings" Header="Settings">
-                    <TextBlock HorizontalAlignment="Stretch"></TextBlock>
-                </TabItem>
-                <TabItem x:Name="DigitalIO" Header="DigitalIO"></TabItem>
-                <TabItem x:Name="AnalogIO" Header="AnalogIO"></TabItem>
-            </TabControl>-->
-        <StackPanel x:Name="UserControls" ></StackPanel>
-        <StackPanel Orientation="Horizontal" Margin="0 48 0 0">
-            <Label DockPanel.Dock="Right" Foreground="AntiqueWhite" Margin="10 0 10 0">
-                <Hyperlink RequestNavigate="Hyperlink_RequestNavigate"  NavigateUri="#" Foreground="AntiqueWhite">Settings</Hyperlink>
-            </Label>
-            <Label DockPanel.Dock="Right" Foreground="AntiqueWhite" Margin="10 0 10 0">
-                <Hyperlink RequestNavigate="Hyperlink_RequestNavigate"  NavigateUri="#" Foreground="AntiqueWhite">Digital I/O</Hyperlink>
-            </Label>
-            <Label DockPanel.Dock="Right" Foreground="AntiqueWhite" Margin="10 0 10 0">
-                <Hyperlink RequestNavigate="Hyperlink_RequestNavigate"  NavigateUri="#" Foreground="AntiqueWhite">Anlog I/O</Hyperlink>
-            </Label>
-        </StackPanel>
-        <Frame x:Name="ConfigFrame" />
+        <Grid.RowDefinitions>
+            <RowDefinition Height="48" />
+            <RowDefinition  Height="*"/>
+            
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel x:Name="UserControls" Grid.Row="0" Grid.Column="0" ></StackPanel>
+        <TabControl Grid.Row="1" Grid.Column="0">
+            <TabItem x:Name="Settings"  Header="Settings">
+                <StackPanel>
+                    <Label Content="Settings" />
+                    <GroupBox Header="Login Settings">
+                        <!--<StackPanel Orientation="Horizontal">
+                            <Label Content="IP Address: " />
+                            <TextBox x:Name="txtIPAdress" />
+                        </StackPanel>-->
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                                <RowDefinition />
+                                <RowDefinition />
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <Label Grid.Row="0" Grid.Column="0" Content="IP Address: " />
+                            <TextBox Grid.Row="0" Grid.Column="1" x:Name="txtIPAdress" />
+                            <Label Grid.Row="1" Grid.Column="0" Content="Port: " />
+                            <TextBox Grid.Row="1" Grid.Column="1" x:Name="txtPort" />
+                            <Label Grid.Row="2" Grid.Column="0" Content="Password:: " />
+                            <TextBox Grid.Row="2" Grid.Column="1" x:Name="txtPassword" />
+                            <Button Grid.Row="3" Grid.Column="0"  x:Name="btnConnect" Content="Connect" />
+                        </Grid>
+                        
+                    </GroupBox>
+                </StackPanel>
+                
+            </TabItem>
+            <TabItem x:Name="DigitalIO" Header="Digital I/O" Content="Digital I/O" />
+            <TabItem x:Name="AnalogInput" Header="Analog Inputs" Content="Analog Inputs" />
+        </TabControl>
+        
     </Grid>
 </Page>
