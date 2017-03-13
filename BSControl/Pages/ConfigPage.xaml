@@ -11,7 +11,6 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="48" />
             <RowDefinition  Height="*"/>
-            
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
@@ -19,14 +18,9 @@
         <StackPanel x:Name="UserControls" Grid.Row="0" Grid.Column="0" ></StackPanel>
         <TabControl Grid.Row="1" Grid.Column="0">
             <TabItem x:Name="Settings"  Header="Settings">
-                <StackPanel>
-                    <Label Content="Settings" />
-                    <GroupBox Header="Login Settings">
-                        <!--<StackPanel Orientation="Horizontal">
-                            <Label Content="IP Address: " />
-                            <TextBox x:Name="txtIPAdress" />
-                        </StackPanel>-->
-                        <Grid>
+                <StackPanel Margin="20">
+                    <GroupBox Header="Login Settings" Margin="0 0 0 10" Foreground="CadetBlue" BorderBrush="CadetBlue" BorderThickness="1">
+                        <Grid Margin="40 0 0 0">
                             <Grid.RowDefinitions>
                                 <RowDefinition />
                                 <RowDefinition />
@@ -34,8 +28,8 @@
                                 <RowDefinition />
                             </Grid.RowDefinitions>
                             <Grid.ColumnDefinitions>
-                                <ColumnDefinition />
-                                <ColumnDefinition />
+                                <ColumnDefinition Width="150" />
+                                <ColumnDefinition Width="300"/>
                             </Grid.ColumnDefinitions>
                             <Label Grid.Row="0" Grid.Column="0" Content="IP Address: " />
                             <TextBox Grid.Row="0" Grid.Column="1" x:Name="txtIPAdress" />
@@ -43,7 +37,29 @@
                             <TextBox Grid.Row="1" Grid.Column="1" x:Name="txtPort" />
                             <Label Grid.Row="2" Grid.Column="0" Content="Password:: " />
                             <TextBox Grid.Row="2" Grid.Column="1" x:Name="txtPassword" />
-                            <Button Grid.Row="3" Grid.Column="0"  x:Name="btnConnect" Content="Connect" />
+                            <Button Grid.Row="3" Grid.Column="0"  x:Name="btnConnect" Content="Connect" Height="20" Width="100"/>
+                        </Grid>
+                    </GroupBox>
+                    <GroupBox Header="Custom Settings" Margin="0 0 0 10" FontWeight="Bold" Foreground="CadetBlue" BorderBrush="CadetBlue" BorderThickness="1">
+                        <Grid Margin="0 0 0 10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Orientation="Vertical">
+                                <StackPanel Orientation="Horizontal">
+                                    <Label Grid.Row="0" Grid.Column="0" Width="250" Content="Number of tries in case of failure:" />
+                                    <TextBox Grid.Row="0" Grid.Column="1" x:Name="txtNoOfTries" Width="40"/>
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal">
+                                    <Label Grid.Row="1" Grid.Column="0" Width="250" Content="Waiting time before next try:" />
+                                    <TextBox Grid.Row="1" Grid.Column="1" x:Name="txtWaitTime" Width="40"/>
+                                </StackPanel>
+                            </StackPanel>
                         </Grid>
                         
                     </GroupBox>
